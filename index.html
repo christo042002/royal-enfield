@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>royal enfield</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <style>
+    .dropdown-menu a:hover{
+          background-color: rgb(177, 68, 68);
+          box-shadow: 0px 0px 5px red;
+    }
+
+    .dropdown-menu a{
+      transition: .4s ease-in;
+    }
+    
+    
+    .navbar a:hover{
+          background-color: rgb(177, 68, 68);
+          box-shadow: 0px 0px 5px red;
+          transition: .4s ease-in;
+          border-radius: 5%;
+    }
+
+    .navbar img{
+        width: 480px;
+        height: 35px;
+      }
+    .nav-item{
+        padding: 0 15px;
+      }
+    .bg img{
+      
+      width: 100%;
+      height: 600px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      transition: transform 2s;
+    }
+
+    .bg img:hover{
+      transform:scale(1.02);
+    }
+    
+  
+      
+      @media  screen and (max-width:576px) {
+        .bg img{
+          width: 100%;
+          height: 250px;
+        }
+        .bg-image img{
+          height: 300px;
+          width: 100%;
+        }
+
+        .navbar img{
+        width: 480px;
+        height: 23px;
+      }
+        
+      }
+      .nav-item{
+        padding: 0 15px;
+      }
+      .bg h2{
+        color: aliceblue;
+        text-transform: capitalize;
+        font-family: 'Times New Roman', Times, serif;
+      }
+    
+ 
+    .card-title{
+      text-align: center;
+      margin-top: 18%;
+      font-size: x-large;
+      color: aliceblue;
+      cursor: pointer;
+      text-decoration: overline underline;
+    }
+    .card-title a{
+      text-align: center;
+      margin-top: 18%;
+      font-size: x-large;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .card-title:hover{
+      color: black;
+    }
+    .card{
+      border: none;
+      background-color: black;
+    }
+   .card a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    transition: transform 3s;
+   }
+   .card a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+   }
+  .popular{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    padding: 2%;
+  }
+    
+  section{
+            width: 100%;
+         
+        }
+        #home{
+            width: 100%;
+            height: 85vh;
+            background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(https://res.cloudinary.com/teepublic/image/private/s--yHaI6L4T--/t_Preview/b_rgb:191919,c_lpad,f_jpg,h_630,q_90,w_1200/v1571974716/production/designs/6460507_0.jpg);
+            color: aliceblue;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+
+        }
+        #home p{
+            position: absolute;
+            top: 40%;
+            font-size:60px;
+            opacity: 0;
+            animation: text 3s ease-in-out;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          
+        }
+        @keyframes text{
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        #home p:nth-child(1){
+            animation-delay: 0s;
+        }
+        #home p:nth-child(2){
+            animation-delay: 3s;
+        }
+        #home p:nth-child(3){
+            animation-delay: 6s;
+        }
+        @media screen and (max-width:576px) {
+            #home p{
+                font-size: 60px;
+                text-align: center;
+            }
+            
+        }
+        #home span{
+            color: rgb(243, 13, 13);
+        }
+    .bg7 img{
+      height: 300px;
+    }
+    .bg7 h4{
+      color: aliceblue;
+    
+    }
+    .bg7 p{
+      color: aliceblue;
+      padding: 0 10%;
+      font-size: larger;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .carousel-inner img{
+      height: 530px;
+      transition: transform 2s;
+    }
+    @media screen and (max-width:546px) {
+      .carousel-inner img{
+      height: 250px;
+
+    }
+    .top1 img{
+     
+    }
+    }
+    .carousel-inner img:hover{
+      transform:scale(1.08);
+      cursor: pointer;
+    }
+    /*motorcycles*/
+  
+        .carousel-inner img{
+      height: 700px;
+      transition: transform 2s;
+    }
+       .carousel-inner img:hover{
+      transform:scale(1.08);
+      cursor: pointer;
+    }
+        @media screen and (max-width:1200px){
+            .carousel-inner img{
+            width: 100%;
+            height: 320px;
+        }
+        .bg img{
+          height: 300px;
+        }
+            
+        }
+       
+    
+   
+    
+ 
+  
+   
+    </style>
+</head>
+<body style="background-color: black;">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <img src="https://www.royalenfield.com/content/dam/royal-enfield/india/logos/logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#events">Events</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#motorcycles">Motorcycles</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#apparels">Apparels</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="file:///C:/Users/witni/Desktop/complete%20website/test%20ride.html">Test drive</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link text-white" href="file:///C:/Users/witni/Desktop/complete%20website/about%20us.html">About Us</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link text-white" href="file:///C:/Users/witni/Desktop/complete%20website/log%20in.html">Log in</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+        <section id="home">
+          <p class="text-center"> welcome to <span>royal enfield</span></p>
+          <p  class="text-center">the <span>121 years</span> of excellence</p>
+          <p  class="text-center">made like a gun goes like a <span>bullet</span></p>
+      </section>
+       
+        
+      <nav class="navbar sticky-top navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1 style="color: aliceblue; cursor: pointer; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> NEW LAUNCH</h1>
+          </a>
+        </div>
+      </nav>
+        
+        <div class="bg">
+           <a href="file:///C:/Users/witni/Desktop/complete%20website/supermeteor.html"><img src="https://www.royalenfield.com/content/dam/royal-enfield/p4d/desktop/p4d-banner.png"></a>
+        </div>
+
+        <nav class="navbar sticky-top navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1 style="color: aliceblue; cursor: pointer;">EVENTS</h1>
+            </a>
+          </div>
+        </nav>
+        
+        <div id="events">
+        <div class="card bg-dark text-white">
+          <img src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/gtcup-home.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/race%20at%20its%20purest.html"><h5 class="card-title">EXPLORE</h5></a>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <img src="https://www.royalenfield.com/content/dam/royal-enfield/usa/rides/events/2022-btr-road-racing-season/banner/desktop/btr-road-racing-2022.jpg" class="card-img-1" alt="...">
+              <a href="file:///C:/Users/witni/Desktop/complete%20website/build%20train%20race.html">Explore</a>
+             
+            </div>
+            <div class="card">
+              <img src="https://www.royalenfield.com/content/dam/royal-enfield/india/unesco/banner/desktop/l1.jpg" class="card-img-2" alt="...">
+              <a href="file:///C:/Users/witni/Desktop/complete%20website/himalayan%20exploration.html">explore</a>
+              
+            </div>
+            <div class="card">
+              <img src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/apparel/desktop/classic-scale-model.jpg" class="card-img-3" alt="...">
+             <a href="file:///C:/Users/witni/Desktop/complete%20website/limited%20edition.html">explore</a>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <nav class="navbar sticky-top navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1 style="color: aliceblue; cursor: pointer;">MOTORCYCLES</h1>
+            </a>
+          </div>
+        </nav>
+
+        <div id="motorcycles">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item ">
+                  <a href="file:///C:/Users/witni/Desktop/complete%20website/classic.html"><img src="https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/classic-350/motorcycle/classic-350-motorcycle-section.png" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption">
+                     
+                    
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <a href="file:///C:/Users/witni/Desktop/complete%20website/interceptor.html"><img src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/desktop/interceptor-homepage.jpg" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption ">
+                     
+                   
+                      
+                    
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="file:///C:/Users/witni/Desktop/complete%20website/continental%20gt.html?#"><img src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/desktop/continental-gt-homepage.jpg" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption ">
+                 
+                 
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="file:///C:/Users/witni/Desktop/complete%20website/bullet.html?"><img src="https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/desktop/banner.jpg" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption">
+                    
+                   
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
+        
+        
+        <nav class="navbar sticky-top navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1 style="color: aliceblue; cursor: pointer;">APPARELS</h1>
+            </a>
+          </div>
+        </nav>
+
+        <div id="apparels">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="file:///C:/Users/witni/Desktop/complete%20website/shop%20by%20category.html"><img src="https://www.royalenfield.com/content/dam/royal-enfield/india/apparel/banner/desktop/royal-enfield-knox.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-sm d-sm">
+                
+              </div>
+            </div>
+           
+            </div>
+          </div>
+       
+        </div>
+      </div>
+        
+        <nav class="navbar sticky-top navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <center><h1 style="color: aliceblue; cursor: pointer;">Popular Tags</h1></center>
+            </a>
+          </div>
+        </nav>
+
+        <div class="row row-cols-3 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img id="img1" onmouseover="setnewimage()" onmouseout="setoldimage()" src="https://www.royalenfield.com/node/assets/locobuzz/156224491053162252409_335811873753141_9057936130155494363_n.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                <h5 style="color: aliceblue;font-family: 'Times New Roman', Times, serif; text-align: center;">#RECustom</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img id="img2" onmouseover="setnewimage2()" onmouseout="setoldimage2()" src="https://www.royalenfield.com/node/assets/locobuzz/158678686666717842842809104718_IMAGE.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="color: aliceblue;font-family: 'Times New Roman', Times, serif; text-align: center;">#OffRoading</h5>
+               
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img id="img3" onmouseover="setnewimage3()" onmouseout="setoldimage3()" src="https://www.royalenfield.com/node/assets/locobuzz/164372584922117942812720761235_17841401461094006_1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="color: aliceblue;font-family: 'Times New Roman', Times, serif; text-align: center;">#REGear</h5>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+     
+
+        
+        
+
+        <nav class="navbar sticky-top navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <h1 style="color: aliceblue; cursor: pointer;">FACE OF RE</h1>
+            </a>
+          </div>
+        </nav>
+
+      
+            <div class="bg7">
+              <center><img src="C:\Users\witni\Downloads\ceo.png" style="background-color: bl;" class="img-fluid rounded-start" alt="..."></center>
+              <center><h4>B.Govindrajan (CEO of Royal Enfield)</h4></center>
+              <br>
+              <br>
+              <p>B. Govindarajan is the Chief Executive Officer at Royal Enfield. He also serves as Wholetime Director on the Board of Eicher Motors Ltd.
+
+                Govindarajan has spent over 23 years at Eicher Motors Ltd. and at Royal Enfield in two stints. In his present stint, he joined Royal Enfield in June 2011 as the Senior Vice President - Industry and has been the Chief Operating Officer at Royal Enfield since 2013.</p>
+     
+           
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
+                <div class="card">
+                
+                  <div class="card-body">
+                    
+                    <p class="card-text">in June 1989 and then joined Brakes India Ltd in June 1992. He joined Royal Enfield as
+                      Manager - Engineering in 1995 and was responsible for the Power train unit Manufacturing
+                      System Engineering. In 2004, Govindarajan became the General Manager - Manufacturing at
+                      Royal Enfield where he was responsible for the entire manufacturing activity and the
+                      implementation of the Lean and Quality Management Systems. In 2006, he was promoted as
+                      Divisional General Manager at Royal Enfield, post that, he moved to the Commercial Vehicle
+                      Manufacturing unit of Eicher Motors in Pithampur as the Head of Operations.
+                      .</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                
+                  <div class="card-body">
+               
+                    <p class="card-text">During his tenure as the Senior Vice President - Industry, he was actively involved in ramping
+                      up production at Royal Enfield's Thiruvottiyur facility and raised the capacity to 1 lakh units per
+                      annum, a new production landmark at the company which paved way for the growth of the
+                      company. Under his
+                      leadership Royal Enfield has established the Technology centres at UK and in India and he led
+                      the team for successful delivery of the 650cc, twin cylinder Interceptor 650 and the Continental
+                      GT 650 which have won recognition across the globe ..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        
+<br>
+<br>
+      
+
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://www.facebook.com/RoyalEnfield/" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/royalenfield" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="https://www.instagram.com/royalenfield/" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://in.linkedin.com/company/royal-enfield?original_referer=https%3A%2F%2Fin.search.yahoo.com%2F" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Royal Enfield
+          </h6>
+          <p>
+            Royal Enfield was a brand name under which The Enfield Cycle Company Limited of Redditch, Worcestershire sold motorcycles, bicycles, lawnmowers and stationary engines which they had manufactured. Enfield Cycle Company also used the brand name "Enfield" without the "Royal".
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Motorcycles
+          </h6>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/classic.html" class="text-reset">Classic</a>
+          </p>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/bullet.html" class="text-reset">Bullet</a>
+          </p>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/interceptor.html" class="text-reset">Interceptor</a>
+          </p>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/continental%20gt.html" class="text-reset">ContinentalGT</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Events
+          </h6>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/race%20at%20its%20purest.html" class="text-reset">Race At Its Purest</a>
+          </p>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/build%20train%20race.html" class="text-reset">Build Train Race</a>
+          </p>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/himalayan%20exploration.html" class="text-reset">Himalayan Exploration</a>
+          </p>
+          <p>
+            <a href="file:///C:/Users/witni/Desktop/complete%20website/limited%20edition.html" class="text-reset">Limited EDition</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            re@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="">Royal Enfield.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+        
+<script type="text/javascript">
+  function setnewimage()
+  {
+    document.getElementById('img1').src="https://www.royalenfield.com/node/assets/locobuzz/156224491053162252409_335811873753141_9057936130155494363_n.jpg";
+  }
+  function setnewimage2()
+  {
+    document.getElementById('img2').src="https://www.royalenfield.com/node/assets/locobuzz/156224491057562220721_905870043091479_8727681446202486212_n.jpg";
+  }
+  function setnewimage3()
+  {
+    document.getElementById('img3').src="https://www.royalenfield.com/node/assets/locobuzz/164018345695317927464039962190_17841401461094006_1.jpg";
+  }
+  
+  function setoldimage()
+  {
+    document.getElementById('img1').src="https://www.royalenfield.com/node/assets/locobuzz/157849400736717905533664384128_256432703_IMAGE.jpg";
+  }
+  function setoldimage2()
+  {
+    document.getElementById('img2').src="https://www.royalenfield.com/node/assets/locobuzz/158678686666717842842809104718_IMAGE.jpg";
+  }
+  function setoldimage3()  
+  {
+    document.getElementById('img3').src="https://www.royalenfield.com/node/assets/locobuzz/164372584922117942812720761235_17841401461094006_1.jpg";
+  }  
+  
+
+</script>   
+    
+</body>
+</html>
