@@ -1,0 +1,86 @@
+.dropdown-menu a:hover{
+    background-color: rgb(177, 68, 68);
+    box-shadow: 0px 0px 5px red;
+}
+
+.dropdown-menu a{
+transition: .4s ease-in;
+}
+
+
+.navbar a:hover{
+    background-color: rgb(177, 68, 68);
+    box-shadow: 0px 0px 5px red;
+    transition: .4s ease-in;
+    border-radius: 5%;
+}
+
+.nav-item{
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+
+
+.container{
+  width: 100%;
+  height: 100%;
+  background: rgb(32, 145, 221);  
+  overflow: hidden;  
+}
+
+
+.thumbnail{
+  padding-top: %;
+  padding-left:%;
+  
+}
+.thumbnail li{
+  list-style: none;
+  display: table;
+  position: relative;
+  margin-top: 40px;
+  max-width: 100px;
+
+}
+.thumbnail img{
+  display: flex;
+  max-width: 200px;
+  transition: 0.5s;
+  
+}
+
+.thumbnail img:hover{
+  transform: translateX(30px);
+  transition: 0.5s;
+}
+.path{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background:#e5e5e5;
+  clip-path: circle(520px at left 300px);
+}
+
+
+
+.text-center{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    overflow: hidden;
+}
+
+#sp1{
+  border: 1px solid red;
+}
+
+@media screen and (max-width:1200px) {
+  .big-img img{
+    position: relative;bottom: 200px;
+    width: 50px;
+  }
+}
+
+
+
